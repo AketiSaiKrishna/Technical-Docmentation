@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Technical Documentation</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav id="navbar">
+            <header> CONTENTS </header>
+            <ul id="ul-navbar">
+                <li><a class="nav-link" href="#Introduction"> Introduction</a></li>
+                <li><a class="nav-link" href="#Adoption_by_Microsoft"> Adoption by Microsoft</a></li>
+                <li><a class="nav-link" href="#The_rise_of_JScript"> The rise of JScript</a></li>
+                <li><a class="nav-link" href="#Growth_and_standardization"> Growth and standardization</a></li>
+                <li><a class="nav-link" href="#Reaching_maturity"> Reaching maturity</a></li>
+                <li><a class="nav-link" href="#Libraries_and_frameworks"> Libraries and frameworks</a></li>
+                <li><a class="nav-link" href="#Security"> Security</a></li>
+                <li><a class="nav-link" href="#Browser_and_plugin_coding_errors">Browser and plugin coding errors</a></li>
+                <li><a class="nav-link" href="#Examples">Examples</a></li>
+            </ul>
+        </nav>
+        <main id="main-doc">
+        <section class="main-section" id="Introduction">
+
+            <header>Introduction</header>
+
+            <p> 
+                 JavaScript often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.
+                 As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.
+                 All major web browsers have a dedicated JavaScript engine to execute the code on users' devices
+             </p>
+             
+            <p>   
+                 JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.
+                 It has dynamic typing, prototype-based object-orientation, and first-class functions.
+                 It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. 
+                 It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM)
+            </p>
+
+            <ul>
+
+                <li> The first web browser with a graphical user interface, Mosaic, was released in 1993.
+                     Accessible to non-technical people, it played a prominent role in the rapid growth of the nascent World Wide Web.
+                     The lead developers of Mosaic then founded the Netscape corporation, which released a more polished browser, Netscape Navigator, in 1994. 
+                     This quickly became the most-used</li>
+                <li>The choice of the JavaScript name has caused confusion, implying that it is directly related to Java. 
+                    At the time, the dot-com boom had begun and Java was the hot new language, 
+                    so Eich considered the JavaScript name a marketing ploy by Netscape</li>
+
+            </ul>
+        </section>
+        <br>
+        <section class="main-section" id="Adoption_by_Microsoft">
+
+            <header><strong>Adoption by Microsoft</strong></header>
+
+            <p>Microsoft debuted Internet Explorer in 1995, leading to a browser war with Netscape. 
+               On the JavaScript front, Microsoft reverse-engineered the Navigator interpreter to create its own, called JScript</p>
+
+            <ul>
+                <li>JScript was first released in 1996, alongside initial support for CSS and extensions to HTML.
+                    Each of these implementations was noticeably different from their counterparts in Navigator</li>
+                <li>These differences made it difficult for developers to make their websites work well in both browsers, 
+                    leading to widespread use of "best viewed in Netscape" and "best viewed in Internet Explorer" logos for several years.</li>
+            </ul>
+
+
+        </section>
+        <br>
+        <section class="main-section" id="The_rise_of_JScript">
+
+            <header><strong>The rise of JScript</strong></header>
+
+            <p>In November 1996, Netscape submitted JavaScript to Ecma International, as the starting point for a standard specification that all browser vendors could conform to. This led to the official release of the first ECMAScript language specification in June 1997.</p>
+
+
+            <ul>
+                <li>The standards process continued for a few years, with the release of ECMAScript 2 in June 1998 and ECMAScript 3 in December 1999. Work on ECMAScript 4 began in 2000</li>
+
+                <li>Microsoft initially participated in the standards process and implemented some proposals in its JScript language, but eventually it stopped collaborating on Ecma work. Thus ECMAScript 4 was mothballed.</li>
+
+            </ul>
+
+
+        </section>
+        <br>
+        <section class="main-section" id="Growth_and_standardization">
+
+            <header><strong>Growth and standardization</strong></header>
+
+            <p>During the period of Internet Explorer dominance in the early 2000s, client-side scripting was stagnant. This started to change in 2004, when the successor of Netscape, Mozilla, released the Firefox browser. Firefox was well received by many, taking significant market share from Internet Explorer.</p>
+
+
+            <ul>
+                <li>In 2005, Mozilla joined ECMA International, and work started on the ECMAScript for XML (E4X) standard. This led to Mozilla working jointly with Macromedia (later acquired by Adobe Systems), who were implementing E4X in their ActionScript 3 language, which was based on an ECMAScript 4 draft</li>
+
+                <li>Google debuted its Chrome browser in 2008, with the V8 JavaScript engine that was faster than its competition.[22][23] The key innovation was just-in-time compilation (JIT). so other browser vendors needed to overhaul their engines for JIT</li>
+
+            </ul>
+
+
+        </section>
+        <br>
+        <section class="main-section" id="Reaching_maturity">
+
+            <header><strong>Reaching maturity</strong></header>
+
+            <p>Ambitious work on the language continued for several years, culminating in an extensive collection of additions and refinements being formalized with the publication of ECMAScript 6 in 2015</p>
+
+
+            <ul>
+                <li>The creation of Node.js in 2009 by Ryan Dahl sparked a significant increase in the usage of JavaScript outside of web browsers. Node combines the V8 engine, an event loop, and I/O APIs, thereby providing a stand-alone JavaScript runtime system</li>
+
+                <li>As of 2018, Node had been used by millions of developers,[29] and npm had the most modules of any package manager in the world</li>
+            </ul>
+
+
+        </section>
+        <br>
+        <section class="main-section" id="Libraries_and_frameworks">
+
+            <header><strong>Libraries and frameworks</strong></header>
+
+            <p>Over 80% of websites use a third-party JavaScript library or web framework for their client-side scripting</p>
+
+
+            <ul>
+                <li>jQuery is by far the most popular library, used by over 75% of websites.[38] Facebook created the React library for its website and later released it as open source; other sites, including Twitter, now use it</li>
+
+                <li>In contrast, the term "Vanilla JS" has been coined for websites not using any libraries or frameworks, instead relying entirely on standard JavaScript functionality.</li>
+            </ul>
+
+
+        </section>
+        <br>
+        <section class="main-section" id="Security">
+
+            <header><strong>Security</strong></header>
+
+            <p>JavaScript and the DOM provide the potential for malicious authors to deliver scripts to run on a client computer via the Web. Browser authors minimize this risk using two restrictions</p>
+
+
+            <ul>
+                <li> First, scripts run in a sandbox in which they can only perform Web-related actions, not general-purpose programming tasks like creating files</li>
+
+                <li> Second, scripts are constrained by the same-origin policy: scripts from one Web site do not have access to information such as usernames, passwords, or cookies sent to another site. Most JavaScript-related security bugs are breaches of either the same origin policy or the sandbox.</li>
+            </ul>
+
+
+        </section>
+        <br>
+
+        <section class="main-section" id="Browser_and_plugin_coding_errors">
+
+            <header><strong>Browser and plugin coding errors</strong></header>
+
+            <p>avaScript provides an interface to a wide range of browser capabilities, some of which may have flaws such as buffer overflows. These flaws can allow attackers to write scripts that would run any code they wish on the user's system.</p>
+
+            <ul>
+                <li>This code is not by any means limited to another JavaScript application. For example, a buffer overrun exploit can allow an attacker to gain access to the operating system's API with superuser privileges.</li>
+                <li>Plugins, such as video players, Adobe Flash, and the wide range of ActiveX controls enabled by default in Microsoft Internet Explorer, may also have flaws exploitable via JavaScript (such flaws have been exploited in the past)</li>
+            </ul>
+
+
+        </section>
+        <br>
+
+        <section class="main-section" id="Examples">
+
+            <header><strong>Examples</strong></header>
+
+            <p>
+                <code>
+                        // Declares a function-scoped variable named `x`
+                        <br>
+                        var x;
+                </code>
+            </p>
+            <p>
+                <code>
+                        // Variables can be manually set to `undefined` like so
+                         <br>
+                           var x2 = undefined;
+                 </code>
+            </p>
+            <p>
+                <code>
+                    // Declares a block-scoped variable named `y' <br>
+                    // `undefined`. The `let` keyword was introduced in ECMAScript 2015. <br>
+                    let y
+                </code>
+            </p>
+            <p> An anonymous function <br>
+                <code>
+
+                    let counter = function() { <br>
+                        let count = 0; <br>
+                        return function() { <br>
+                            return ++count; <br>
+                        }<br>
+                    };<br>
+                </code>
+
+                <code>
+                    
+                    let x = counter();<br>
+                    x(); // Returns 1 <br>
+                    x(); // Returns 2 <br>
+                    x(); // Returns 3 <br>
+                
+                 </code>
+            </p>
+
+            
+
+            
+
+
+        </section>
+        </main>
+    </body>
+</html>
